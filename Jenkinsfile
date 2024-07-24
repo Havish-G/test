@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "hi"
                 sh '''#!/bin/bash
-                 touch /tmp/bb.txt
+                 python3 test.py
                 '''
             }
         }
